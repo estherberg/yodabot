@@ -30,28 +30,11 @@ function getBotResponse(input) {
     if (input == "hello" || input == "hi") return "Yoda: In a dark place we find ourselves, and a little more knowledge lights our way. What knowledge do you seek?";
     else if (input == "what is fear?" || input == "what is fear") return "Yoda: Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.";
     else if (input == "thanks") return "Yoda: Much to learn you still have... my old padawan. This is just the beginning!";
-    else if (input !== "hello" || input == "hi" || input !== "what is fear ?" || input !== "thanks") return "Yoda: I'm sorry, I couldn't find any information relating to your question. Please search for another word or phrase.";
+    else if (input == "what is fear?" || input == "what is fear") return "Yoda: Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.";
+    else if (input == "how are you ?" || input == "how are you ") return "Yoda: Powerful you have become, the dark side I sense in you. What answers do you seek?";
+    else if (input == "what's your name ?" || input == "what's your name") return "Yoda";
+    else return "Yoda: I'm sorry, I couldn't find any information relating to your question. Please search for another word or phrase.";
 }
-// function getBotResponse(input) {
-//   if (input == "hello") {
-//     return "In a dark place we find ourselves, and a little more knowledge lights our way. What knowledge do you seek?";
-//   } else if (input == "what is fear?") {
-//     return "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.";
-//   } else if (input == "thanks") {
-//     return "Much to learn you still have... my old padawan. This is just the beginning!";
-//   } else if (input !== "hello" || input !== "what is fear ?" || input !== "thanks"){
-//  let input2 = input("I'm sorry, I couldn't find any information relating to your question. Please search for another word or phrase.");
-//         if (input2 == "hello") {
-//           return "In a dark place we find ourselves, and a little more knowledge lights our way. What knowledge do you seek?";
-//       } else if (input2 == "what is fear?") {
-//         return "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.";
-//       } else if (input2 == "thanks") {
-//         return "Much to learn you still have... my old padawan. This is just the beginning!";
-//       } else {
-//         return "Vous etes insolent, c'est la deuxieme fois que vous vous trompez";
-//       }
-//   } 
-//   }
 // Press enter to send a message
 $("#textInput").keypress(function(e) {
     if (e.which == 13) getResponse();
