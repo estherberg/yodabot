@@ -1,4 +1,4 @@
-GET STARTED :
+- GET STARTED :
 
 Pour lancer le projet ouvrer dans votre navigateur le fichier index.html
 
@@ -7,8 +7,20 @@ Le projet consiste a mettre en place un chat bot qui est relier a une api de inb
 https://developers.inbenta.io/chatbot/chatbot-api/api-setup
 
 
-index.html
+Front-end : Js , css , html , bootstrap , VueJs
+Back-end : NodeJs , parcel (build)
 
+
+
+- index.html : 
+il est reliée a "CSS/style.css" , a "JS/app.js" et a des images.
+Utilisation des librairies : bootstrap , VueJs
+
+ - style.css :
+
+il met en place tout le style de la page qui est responsive.
+
+- app.js : 
 
 Fonction qui récupère la réponse que le user a tapé:
 function getHardResponse(userText)
