@@ -1,6 +1,13 @@
-GET STARTED
+GET STARTED :
+
+Pour lancer le projet ouvrer dans votre navigateur le fichier index.html
 
 
+Le projet consiste a mettre en place un chat bot qui est relier a une api de inbenta :
+https://developers.inbenta.io/chatbot/chatbot-api/api-setup
+
+
+index.html
 
 
 Fonction qui récupère la réponse que le user a tapé:
