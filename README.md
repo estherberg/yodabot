@@ -1,20 +1,21 @@
 - GET STARTED :
 
-Pour lancer le projet ouvrer dans votre navigateur le fichier index.html
+Pour lancer le projet ouvrez dans votre navigateur le fichier "index.html".
 
 
-Le projet consiste a mettre en place un chat bot qui est relier a une api de inbenta :
+Le projet consiste a mettre en place un chat bot  yoda qui est relié a une api de inbenta qui recupère les reponses du serveur :
 https://developers.inbenta.io/chatbot/chatbot-api/api-setup
 
 
-Front-end : Js , css , html , bootstrap , VueJs
-Back-end : NodeJs , parcel (build)
-
-
+Front-end : Js , Css , Html , Bootstrap , VueJs
+Back-end : NodeJs , Parcel (build)
+hosting platform : GitHub , Vercel
+Model Vue Controler
 
 - index.html : 
+
 il est reliée a "CSS/style.css" , a "JS/app.js" et a des images.
-Utilisation des librairies : bootstrap , VueJs
+Utilisation des librairies : bootstrap , VueJs.
 
  - style.css :
 
