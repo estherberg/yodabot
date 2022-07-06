@@ -44,9 +44,14 @@ function getBotResponse(input) {
       return "Yoda: Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.";
     } else if (input == "thanks") {
       return "Yoda: Much to learn you still have... my old padawan. This is just the beginning!";
-    } else if (input !== "hello" || input == "hi" || input !== "what is fear ?" || input !== "thanks"){
+    }else if (input == "what is fear?" || input == "what is fear") {
+      return "Yoda: Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.";
+    }else if (input == "how are you ?" || input == "how are you ") {
+      return "Yoda: Powerful you have become, the dark side I sense in you. What answers do you seek?";
+    }else if (input == "what's your name ?" || input == "what's your name") {
+      return "Yoda";
+    } else
       return "Yoda: I'm sorry, I couldn't find any information relating to your question. Please search for another word or phrase.";
-    } 
   
   }
 
